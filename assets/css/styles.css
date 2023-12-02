@@ -1,0 +1,98 @@
+body{
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+header{
+    display: block;
+    background: black;
+    height: 73px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+main{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+main img{
+    width: 100%;
+    height: auto    ;
+}
+.definicion{
+    display: flex;
+    flex-wrap:wrap;
+    height: 348px;
+    width: 100%;
+    background: black;
+}
+.parrafo{
+    width: 50%;
+    height: 100%;
+}
+.parrafo p{
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 75px;
+    text-align: justify;
+}
+.imagen{
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.imagen img{
+    width: 399px;
+    height: 237px;
+}
+.caracteristicas{
+    background: #1E1A13;
+    width: 100%;
+    height: 348px;
+}
+.title{
+    padding-top: 75px;
+    font-size: 40px;
+    text-align: center;
+}
+.caracteristicas ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content:space-around;
+    margin-top: 5%;
+}
+.caracteristicas ul li{
+    text-align: center;
+    font-size: 25px;
+}
+.galeria{
+    display: flex;
+    flex-wrap:wrap;
+    height: 348px;
+    background:black;
+    align-items: center;
+    justify-content: center;
+}
+.galeria-img{
+    display: flex;
+    width: 316px;
+    margin-right: 10px;
+    align-items: center;
+}
+.galeria-img img{
+    width: 316px;
+    height: 202px;
+}
+footer{
+    display: flex;
+    height: 102px;
+    background: #1E1A13;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 20px;
+}
